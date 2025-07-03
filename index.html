@@ -1,6 +1,31 @@
-<html>
-  <title>Redirect Page</title>
-<h1>This website has been blocked. If this does not redirect, click <a href="https://thehtmlproject.github.io/home/">here</a></h1>
- <meta http-equiv="refresh" content="0; url=https://thehtmlproject.github.io/home">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The HTML Project Landing Page</title>
+    <meta name="description" content="Welcome to The HTML Project's landing page. My site is currently up on GitHub, so please click the button below to get redirected. Enjoy!">
+    <link rel="icon" href="https://assets.thehtmlproject.com/icon.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://assets.thehtmlproject.com/css/landers/style.css">
+</head>
+<body>
+    <div class="title-logo">
+        <div class="logo">
+            <img src="https://assets.thehtmlproject.com/icon.jpeg" alt="Logo">
+        </div>
+        <div class="title">The HTML Project</div>
+    </div>
+    <div class="description">
+        Welcome to The HTML Project's landing page. My site is currently up on thehtmlproject.com, so please click "Go to my Website" below to get redirected. Enjoy!
+    </div>
+    <div class="bottom-button">
+        <button class="primary" onclick="window.location.href='/sl/redirect/'">Go to my Website</button>
+        <button class="secondary" onclick="window.location.href='/sl/preview/'">Preview my Website</button>
 
+    </div>
+    <div class="countdown" id="timer">Redirecting in 5 seconds...</div>
+
+ <script src="https://assets.thehtmlproject.com/script/landers/script.js"></script>
+</body>
 </html>
